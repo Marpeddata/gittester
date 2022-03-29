@@ -16,27 +16,31 @@ public abstract class ACar implements Car {
 
     @Override
     public int getNumberOfDoors() {
+
         return numberOfDoors;
     }
 
     @Override
     public String getMake() {
+
         return this.make;
     }
 
     @Override
     public String getModel() {
+
         return this.model;
     }
 
     @Override
     public String getRegistrationNumber() {
+
         return this.licensePlate;
     }
 
     @Override
     public String toString(){
-        return "Model: "+ model + "Make: " + make + "Number of Doors: " + numberOfDoors + "Licenseplate: " + licensePlate;
+        return "\n" + "Model: "+ model + "\n" + "Make: " + make + "\n" + "Number of Doors: " + numberOfDoors + "\n" + "Licenseplate: " + licensePlate;
     }
 
 }
